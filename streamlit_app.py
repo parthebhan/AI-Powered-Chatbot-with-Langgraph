@@ -83,7 +83,7 @@ def chatbot_ui(graph):
 
     
 
-    if st.button("Send") and user_input:
+    if st.button("Submit") and user_input:
         # Add user's message to the session state
         st.session_state['messages'].append(("user", user_input))
         
