@@ -4,6 +4,8 @@
 
 This Streamlit application allows users to interact with a chatbot powered by the Langgraph framework and the Gemma2-9b-It model. It facilitates real-time conversations and dynamic responses through an intuitive web interface.
 
+[![Streamlit App](https://img.shields.io/badge/Streamlit_App_AI-Powered Chatbot with Langgraph and Powered by Gemma2-9b-It-ff69b4.svg?style=for-the-badge&logo=Streamlit)](https://langchainragpdfappchatbotfaiss-yehqlvnvwkpfrdmkps4vhp.streamlit.app/)
+
 ## **Dependencies**
 
 - **Streamlit**: For building interactive web applications.
