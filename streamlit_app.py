@@ -49,7 +49,7 @@ def chatbot_ui(graph):
 
     st.sidebar.markdown("<h3 style='font-size: 32px;'>App Details</h3>", unsafe_allow_html=True)
     
-    st.sidebar.markdown("<h3 style='color: #2ca02c;font-size: 20px;'>App Created by: Parthebhan Pari</h3>", unsafe_allow_html=True)
+    st.sidebar.markdown("<h3 style='color: #2ca02c;font-size: 16px;'>App Created by: Parthebhan Pari</h3>", unsafe_allow_html=True)
     
     st.sidebar.markdown("""
                         
