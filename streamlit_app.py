@@ -10,13 +10,13 @@ from langgraph.graph.message import add_messages
 
 # Step 1: Environment and API Setup
 def setup_environment():
-    os.environ["LANGCHAIN_API_KEY"] = st.secrets["groq_api_key"]
+    os.environ["LANGCHAIN_API_KEY"] = st.secrets["LANGCHAIN_API_KEY"]
     os.environ["LANGCHAIN_TRACING_V2"] = "true"
     os.environ["LANGCHAIN_PROJECT"] = "Langgraph_Chatbot"
 
 # Step 2: Initialize LLM
 def initialize_llm():
-    groq_api_key = st.secrets["groq_api_key"]  
+    groq_api_key = st.secrets["GROQ_API_KEY"]  
     return ChatGroq(groq_api_key=groq_api_key, model_name="Gemma2-9b-It")
 
 # Step 3: Define State Class and Build Graph
